@@ -1,0 +1,37 @@
+---
+vios_instances:
+  - system_name: "s822-01"
+    name: "vios-01.local"
+    image_dir: "VIOS-4.1.1.0"
+    vios_iso: "dvdimage.v1.iso"
+    vios_ip: "10.0.1.10"
+    vios_gateway: "10.0.1.1"
+    vios_subnetmask: "255.255.255.0"
+    network_macaddr: "aee237ceb612"
+    settings:
+      proc_mode: "ded"
+      min_procs: 1
+      desired_procs: 1
+      max_procs: 1
+      min_mem: 8192
+      desired_mem: 8192
+      max_mem: 8192
+      # To get adapter location codes, use:
+      # lshwres -m <system_name> -r io --rsubtype slot -F drc_index,description
+      # //1 If the io slot is required, //0 if it isn't
+      io_slots: "21010010//1,21010013//1"
+      auto_start: 1
+
+lpar_instances:
+  - system_name: "s822-01"
+    vm_name: "linux-ppc64le-01"
+    os_type: "linux"
+    network_name: "LOCAL-NET"
+    hostname: "linux-ppc64le-01"
+    domain: "local"
+    vm_ip: "10.0.1.11"
+    subnetmask: "255.255.255.0"
+    gateway: "10.0.1.1"
+    nameservers:
+      - "8.8.8.8"
+      - "9.9.9.9"

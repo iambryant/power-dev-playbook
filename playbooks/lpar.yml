@@ -1,0 +1,12 @@
+---
+- name: Configure DHCP Server
+  hosts: netboot
+  become: true
+  roles:
+    - name: bertvv.dhcp
+
+- name: "Create and install logical partitions"
+  hosts: hmc
+  gather_facts: false
+  roles:
+    - lpars.power.lpar

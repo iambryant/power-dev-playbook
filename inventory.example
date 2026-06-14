@@ -1,0 +1,11 @@
+[hmc]
+vhmc-01.local
+
+[lpar_aix]
+aix-ppc64-01.local
+
+[lpar_linux]
+linux-ppc64le-01.local
+
+[netboot]
+netboot-01.local

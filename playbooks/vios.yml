@@ -1,0 +1,6 @@
+---
+- name: "Create and install VIOS partitions"
+  hosts: hmc
+  gather_facts: false
+  roles:
+    - lpars.power.vios

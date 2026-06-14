@@ -1,0 +1,6 @@
+[defaults]
+collections_path = ./collections
+roles_path = ./roles
+inventory = inventory
+remote_user = admin
+vault_password_file = <path_to_vault_password_file>

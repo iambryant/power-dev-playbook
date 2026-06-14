@@ -1,0 +1,6 @@
+ansible.cfg
+collections/
+group_vars/*.yml
+host_vars/*.yml
+inventory
+roles/
