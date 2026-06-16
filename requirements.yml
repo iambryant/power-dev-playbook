@@ -3,8 +3,8 @@ collections:
   - name: ibm.power_aix
     version: 2.2.1
 
-  - name: lpars.power
-    source: https://github.com/LPARS/ansible-collection-power
+  - name: iambryant.power
+    source: https://github.com/iambryant/ansible-collection-power
     type: git
 
 roles:

@@ -1,8 +1,8 @@
-<img src="https://raw.githubusercontent.com/lpars/power-dev-playbook/main/docs/images/power-servers.png" width="50%" alt="Power Servers" />
+<img src="https://raw.githubusercontent.com/iambryant/power-dev-playbook/main/docs/images/power-servers.png" width="50%" alt="Power Servers" />
 
 # Full Power Setup Process
 
-[![CI](https://github.com/LPARS/power-dev-playbook/actions/workflows/ci.yml/badge.svg)](https://github.com/LPARS/power-dev-playbook/actions/workflows/ci.yml)
+[![CI](https://github.com/iambryant/power-dev-playbook/actions/workflows/ci.yml/badge.svg)](https://github.com/iambryant/power-dev-playbook/actions/workflows/ci.yml)
 
 The playbooks in this repository configure my IBM Power infrastructure from the ground up.
 
