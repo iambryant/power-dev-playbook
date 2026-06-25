@@ -1,11 +1,11 @@
 ---
 collections:
-  - name: ibm.power_aix
-    version: 2.2.1
-
   - name: iambryant.power
     source: https://github.com/iambryant/ansible-collection-power
     type: git
+
+  - name: ibm.power_aix
+    version: 2.2.1
 
 roles:
   - name: bertvv.dhcp
