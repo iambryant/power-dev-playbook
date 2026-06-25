@@ -3,7 +3,7 @@
   hosts: netboot
   become: true
   roles:
-    - name: bertvv.dhcp
+    - bertvv.dhcp
 
 - name: "Create and install logical partitions"
   hosts: hmc
