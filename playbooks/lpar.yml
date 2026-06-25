@@ -1,5 +1,5 @@
 ---
-- name: Configure DHCP Server
+- name: "Ensure base DHCP is configured on netboot server"
   hosts: netboot
   become: true
   roles:
