@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/iambryant/power-dev-playbook/main/docs/images/power-servers.png" width="50%" alt="Power Servers" />
 
-# Full Power Setup Process
+# Ansible Playbook: IBM Power
 
 [![CI](https://github.com/iambryant/power-dev-playbook/actions/workflows/ci.yml/badge.svg)](https://github.com/iambryant/power-dev-playbook/actions/workflows/ci.yml)
 
