@@ -15,9 +15,9 @@ Upon receiving a Power server, I make sure to do these things to get it up and r
   - Import server from HMC using that HMC user and password
   - Plug in physical disks for the rootvg of the VIOS
   - Run `vios` role
-  > [!NOTE]
-  > The underlying `ibm.power_hmc.vios` module that the `vios` role uses assumes you are using Fibre Channel-backed storage and doesn't
-  > natively support creating a mirrored local rootvg during deployment. Mirroring currently is done manually post-install.
+> [!NOTE]
+> The underlying `ibm.power_hmc.vios` module that the `vios` role uses assumes you are using Fibre Channel-backed storage and doesn't
+> natively support creating a mirrored local rootvg during deployment. Mirroring currently is done manually post-install.
   - Manually create a volume group for logical partitions to use
   - Link aggregate needed interfaces and create virtual networks on top of them
   > [!NOTE]
