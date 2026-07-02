@@ -42,6 +42,7 @@ Upon receiving a Power server, I make sure to do these things to get it up and r
 > because the return value of "com.ibm.xmlns.powervm.uom.v2012_10.PhysicalVolume.getReservePolicy()" is null'
 > ```
 > I suspect that this is because the local disk doesn't have the `ReservePolicy` attribute that a Fibre Channel LUN would otherwise have.
+
   - Run `lpar` role
 
 ## Notes
