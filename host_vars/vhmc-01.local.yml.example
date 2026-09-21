@@ -35,3 +35,15 @@ lpar_instances:
     nameservers:
       - "8.8.8.8"
       - "9.9.9.9"
+
+    user_data:
+      chpasswd:
+        expire: False
+      users:
+        - name: admin
+          gecos: Management user
+          shell: /bin/bash
+          ssh_authorized_keys:
+            - <your-key-here>
+          sudo: "ALL=(ALL) NOPASSWD:ALL"
+      package_upgrade: true
