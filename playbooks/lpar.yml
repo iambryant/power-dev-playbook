@@ -8,8 +8,8 @@
 - name: "Create and install logical partitions"
   hosts: hmc
   gather_facts: false
-  # Do NOT use connection: local here! 
-  # The lpar role handles connection types; setting it globally 
+  # Do NOT use connection: local here!
+  # The lpar role handles connection types; setting it globally
   # will break connections to the netboot server.
   roles:
     - iambryant.power.lpar
