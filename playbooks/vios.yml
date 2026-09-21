@@ -2,5 +2,6 @@
 - name: "Create and install VIOS partitions"
   hosts: hmc
   gather_facts: false
+  connection: local
   roles:
     - iambryant.power.vios

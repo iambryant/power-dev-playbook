@@ -8,5 +8,6 @@
 - name: "Create and install logical partitions"
   hosts: hmc
   gather_facts: false
+  connection: local
   roles:
     - iambryant.power.lpar
